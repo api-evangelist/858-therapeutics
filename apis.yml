@@ -1,8 +1,27 @@
 aid: 858-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/858-therapeutics.png
 name: 858 Therapeutics
-description: '858 Therapeutics is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: biotech-therapeutics. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  858 Therapeutics is a clinical-stage biotechnology company based in San Diego, California,
+  developing first-in-class and best-in-class small-molecule therapies that target tumor
+  dependencies in DNA damage response (DDR) pathways. Its lead program, ETX-19477, is an oral,
+  potent, and selective PARG (poly(ADP-ribose) glycohydrolase) inhibitor being evaluated in a
+  Phase 1/2 study for patients with advanced solid tumors, exploiting cancer-cell vulnerabilities
+  tied to replication stress and defects in replication-fork protection. The company was surfaced
+  as a portfolio company of Insight Partners and added to the API Evangelist network. As a
+  clinical-stage therapeutics company it publishes a corporate and scientific web presence but
+  no public developer, API, or documentation surface, so API artifacts are not applicable.
 url: https://raw.githubusercontent.com/api-evangelist/858-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,10 +34,31 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Biotech Therapeutics
+- Biotech
+- Therapeutics
+- Oncology
+- Precision Medicine
+- Drug Discovery
+- DNA Damage Response
+- Clinical Stage
+- Pharmaceuticals
 apis: []
+common:
+- type: Website
+  url: https://8five8tx.com/
+- type: Blog
+  url: https://8five8tx.com/news/
+- type: Support
+  url: https://8five8tx.com/contact/
+- type: DomainSecurity
+  url: security/858-therapeutics-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
